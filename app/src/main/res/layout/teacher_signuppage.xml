@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:id="@+id/tusername"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettusername1"
+        android:textSize="14pt"
+        android:layout_below="@+id/tusername"
+        android:hint="Nick Name "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_below="@+id/ettusername1"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:id="@+id/taddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettaddress"
+        android:textSize="14pt"
+        android:layout_below="@+id/taddress"
+        android:hint="Address  "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:layout_below="@+id/ettaddress"
+        android:id="@+id/tphone"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettphone"
+        android:textSize="14pt"
+        android:layout_below="@+id/tphone"
+        android:hint="Phone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@+id/ettphone"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:id="@+id/temail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettemail"
+        android:textSize="14pt"
+        android:layout_below="@+id/temail"
+        android:hint="Enter your email"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:text="Password"
+        android:textColor="#932923"
+        android:layout_below="@+id/ettemail"
+        android:id="@+id/tpassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:layout_below="@+id/tpassword"
+        android:id="@+id/ettpassword"
+        android:inputType="numberPassword"
+        android:hint="********"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:layout_below="@+id/ettpassword"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signupTeacher"
+        />
+
+</RelativeLayout>
+    </ScrollView>
+</LinearLayout>

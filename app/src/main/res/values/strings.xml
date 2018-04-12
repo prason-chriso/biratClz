@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Birat Clz</string>
+    <string name="welcome_text">Welcome To</string>
+    <string name="organizationName">Birat Multiple College</string>
+    <string name="organizationDescription">Birat Multiple College(BMC) afliated to Tribhuvan University, was established in 2010 AD and promoted by a group of experienced and dedicated academicians, computer engineers, management professionals and reputed sofware company of Nepal. The goal of the college is to provide a high quality educaton that will enable the students to embrace the challenges of the modern world and establish the foundaton for a successful future.</string>
+    <string name="facility_text">Our Facility and Services</string>
+    <string name="newusertext"> Not a User? ,<u>Click here to create New Account</u></string>
+
+    <string-array name="faculty_name">
+        <item>B.Tech(food)</item>
+        <item>Microbiology</item>
+        <item>BSc. CSIT</item>
+    </string-array>
+
+    <string-array name="semester_name">
+        <item>1st sem</item>
+        <item>2nd sem</item>
+        <item>3rd sem</item>
+        <item>4th sem</item>
+        <item>5th sem</item>
+        <item>6th sem</item>
+        <item>7th sem</item>
+        <item>8th sem</item>
+    </string-array>
+
+    <string name="contact_detail">Contact for information about:
+        a.Advising,
+        b.Certification,
+        c.Scheduling visits to the college
+
+        134 Erickson Hall
+        College of Education
+        Michigan State University
+        East Lansing, MI 48824-1034
+
+        Phone: (517) 353-9680
+        Fax: (517) 432-2718</string>
+
+    <string name="academicareas_desc">Under the guidance of renowned administrators and faculty members in four departments, students have opportunities to pursue or advance careers in teaching, educational administration, higher education, research, policymaking, student affairs, rehabilitation counseling, school psychology, kinesiology and athletic training.</string>
+    <string name="keypriority_desc">The College of Education has established a reputation for excellence and visionary thinking in its efforts to improve teaching and learning across our nation and world, particularly within the contexts of urban and global education. The faculty remains committed to addressing the educational and physical needs of all learners across the life span, and to working closely with educators, leaders and policymakers in the field.</string>
+    <string name="whychoose_desc">Innovative teacher education programs, outstanding faculty, relationships with practicing educators and strong research opportunities make Michigan State University a dynamic place for learning to teach and to contribute to the fields of education and kinesiology. The college is proud to claim more than 57,000 alumni, each touching lives in their own way around the world.</string>
+
+    <string name="microbiology_intro">Microbiology is a four year (with eight semester) degree affiliated to Tribhuvan University. Main objective of this degree is to provide professional education with the blend of information technology along with managerial skills.</string>
+    <string name="eligibility_title">Eligibility for admission</string>
+    <string name="eligibility_desc">The candidate applying for microbiology program must have:<br/> Successfully completed a twelve-year schooling or equivalent from any University, Board or Institution recognized by Tribhuvan University. Secured a minimum of second division (45%) in the twelve-year schooling or equivalent</string>
+    <string name="admissionCrieteria_title">Admission Criteria</string>
+    <string name="admissionCrieteria_desc">Student has to appear in CMAT test conducted by the University. Only the short listed candidates from the written test (CMAT Test) will be interviewed and selected for admission.</string>
+
+
+    <string name="b.techfood_intro">B.Tech(food) program provides an interdisciplinary education for students interested in Management and ICT, with major focus in management. BBA program helps the students learn modern business theory and principles; and execute them into the practical field. It helps to acquire knowledge in the fields of business, including management, international business, marketing, business law, accountancy, finance, economics, and knowledge management, and apply these skills to different business environments.</string>
+    <string name="careerOpportunities_title">Career Opportunities/Future Perspectives</string>
+    <string name="careerOpportunities_desc">B.Tech(food) Program is designed to produce professionally competent graduates for employment in business and industry. It provides an interdisciplinary education for students interested In Management and IT with major focus In management .BBA program helps the students learn modern business theory and principles and execute them into the practical field, it also helps students align and integrate the information technologies in the modern business processes to attain the organizational efficiency. Students enrolled in this program will develop knowledge in business processes, logical thinking power , rationality ,creativity and also to be good communicators, responsible learners ,capable of working independently and as well as in a team.BBA graduates from this program are qualified to become Human Resource Officers, Marketing Officers, Finance Officers etc.</string>
+
+    <string name="csit_intro">BSc. CSIT is a four year program (with eight semesters) affiliated to Tribhuvan University and the course is designed to provide cutting edge technological skills in software development, algorithm design, code optimization and compiler design. The main objective of the degree is to offer intensive knowledge in the theory, design, programming and application of computers.</string>
+    <string name="csiteligibility_desc">The candidate applying for B.Sc. CSIT program must have:<br/>Successfully completed a twelve-year schooling or equivalent (only from science stream) from any University, Board or Institution recognized by Tribhuvan University.<br/>Secured a minimum of second division (45%) in the twelve-year schooling or equivalent.</string>
+    <string name="csitadmissionCrieteria_desc">Admission of eligible candidate will be on the basis of score obtained on entrance test conducted by the Institute of Science and Technology, Tribhuvan University and performance in personal interview.</string>
+
+</resources>

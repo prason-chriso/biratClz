@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:id="@+id/susername"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etsusername1"
+        android:textSize="14pt"
+        android:layout_below="@+id/susername"
+        android:hint="Nick Name "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_below="@+id/etsusername1"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:id="@+id/saddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etsaddress"
+        android:textSize="14pt"
+        android:layout_below="@+id/saddress"
+        android:hint="Address  "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:layout_below="@+id/etsaddress"
+        android:id="@+id/sphone"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etsphone"
+        android:textSize="14pt"
+        android:layout_below="@+id/sphone"
+        android:hint="Phone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@+id/etsphone"
+        android:textColor="#932923"
+        android:textSize="16pt"
+        android:id="@+id/semail"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etsemail"
+        android:textSize="14pt"
+        android:hint="Enter your email"
+        android:layout_below="@+id/semail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:textColor="#932923"
+        android:text="Password"
+        android:layout_below="@+id/etsemail"
+        android:id="@+id/spassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:layout_below="@+id/spassword"
+        android:id="@+id/etspassword"
+        android:inputType="numberPassword"
+        android:hint="********"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/etspassword"
+        android:id="@+id/spinnerholder">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/facultyspinner"
+            android:layout_marginRight="20dp"
+            ></Spinner>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:layout_below="@+id/spinnerholder"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signupStudent"
+        />
+
+</RelativeLayout>
+        </ScrollView>
+    </LinearLayout>

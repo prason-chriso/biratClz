@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/querysenttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send time show" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/querydetailmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/querysenttime"
+        android:text="data of query"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/querySender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/querydetailmessage"
+        android:text="exampe@gmmail.com" />
+
+
+</RelativeLayout>

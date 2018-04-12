@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/programs"
+                android:src="@drawable/icon_programs"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/failities"
+                android:src="@drawable/icon_facility"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/notices"
+                android:src="@drawable/icon_notice"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/admissionenquery"
+                android:src="@drawable/icon_admissionquery"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/discussionforum"
+                android:src="@drawable/icon_discussionforum"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/newevents"
+                android:src="@drawable/icon_newsevents"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/download"
+                android:src="@drawable/icon_download"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/aboutus"
+                android:src="@drawable/icon_about"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

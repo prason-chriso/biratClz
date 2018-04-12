@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/bimImage"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:src="@drawable/banner_birat_campuus" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="B.Tech(food)"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b.techfood_intro"/>
+
+    <TextView
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eligibility_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eligibility_desc"/>
+
+    <TextView
+
+        android:textSize="8pt"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionCrieteria_title"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admissionCrieteria_desc"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/careerOpportunities_title"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/careerOpportunities_desc"/>
+
+        <TextView
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grading System"/>
+
+
+        <TableLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/redish_grey"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow
+                android:weightSum="3">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="20px"
+
+                    android:background="@drawable/border"
+                    android:text="Letter grade"
+                    android:lines="2"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:paddingLeft="20px"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:lines="2"
+                    android:text="Cumulative grade\npoint average(CGPA)     "/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:text="Division"
+                    android:lines="2"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:weightSum="3"
+                android:background="#fff">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="A"
+                    />
+
+                <TextView
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="3.5 to 4.0"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="First Division with Dist."
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:weightSum="3"
+                android:background="#fff">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="B"
+                    />
+
+                <TextView
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="2.5 to 3.4 "
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="First Division"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:weightSum="3"
+                android:background="#fff">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="C"
+                    />
+
+                <TextView
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="2.0 to 1.9"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Second Division"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:weightSum="3"
+                android:background="#fff">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="D"
+                    />
+
+                <TextView
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="1.5 to 1.9"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Third Division"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+            <TableRow
+                android:weightSum="3"
+                android:background="#fff">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="F"
+                    />
+
+                <TextView
+                    android:paddingLeft="20px"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    android:text="0 to 1.4"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Failed"
+                    android:paddingLeft="20px"
+                    android:paddingRight="25dp"
+                    android:background="@drawable/border"
+                    />
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+        android:textSize="14pt"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Structure"
+        />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/redish_grey">
+        <TableRow
+            android:weightSum="2"
+            android:background="#fff">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingLeft="20px"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="Management and Allied Courses"
+                />
+
+            <TextView
+                android:paddingLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="72 credit hour"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:paddingLeft="20px"
+                android:paddingRight="25dp"
+                android:lines="2"
+                android:text="Computer Related Courses" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:paddingLeft="20px"
+                android:paddingRight="25dp"
+                android:text="18 credit hour" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:weightSum="2"
+            android:background="#fff">
+            <TextView
+                android:layout_weight="1"
+                android:lines="2"
+                android:layout_width="wrap_content"
+                android:paddingLeft="20px"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="Specialization Area Courses"
+                />
+
+            <TextView
+                android:paddingLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="24 credit hour"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:weightSum="2"
+            android:background="#fff">
+            <TextView
+                android:lines="2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingLeft="20px"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="Internship:"
+                />
+
+            <TextView
+                android:paddingLeft="20px"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="6 credit hour"
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:weightSum="2"
+            android:background="#fff">
+            <TextView
+                android:lines="2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingLeft="20px"
+                android:paddingRight="25dp"
+                android:gravity="end"
+                android:background="@drawable/border"
+                android:text="Total Credit hours:"
+                />
+
+            <TextView
+                android:lines="2"
+                android:textAlignment="center"
+
+                android:paddingLeft="20px"
+                android:textStyle="bold"
+                android:paddingTop="15px"
+                android:textSize="10pt"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:paddingRight="25dp"
+                android:background="@drawable/border"
+                android:text="120"
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>

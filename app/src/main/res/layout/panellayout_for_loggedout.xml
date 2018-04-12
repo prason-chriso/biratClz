@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/loprograms"
+                android:src="@drawable/icon_programs"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/lofailities"
+                android:src="@drawable/icon_facility"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/loadmissionenquery"
+                android:src="@drawable/icon_admissionquery"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/lodiscussionforum"
+                android:src="@drawable/icon_discussionforum"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/lonewevents"
+                android:src="@drawable/icon_newsevents"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="80px"
+                android:layout_marginTop="80px"
+                android:id="@+id/loaboutus"
+                android:src="@drawable/icon_about"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

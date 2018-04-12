@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_marginTop="50px"
+            android:layout_height="120dp"
+            android:id="@+id/lauploadNotice"
+            android:src="@drawable/icon_queryreview"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="50px"
+            android:id="@+id/laqueryReceived"
+            android:src="@drawable/icon_updatenotice"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80px"
+            android:id="@+id/laprograms"
+            android:src="@drawable/icon_programs"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="80px"
+            android:id="@+id/lafailities"
+            android:src="@drawable/icon_facility"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80px"
+            android:id="@+id/lanotices"
+            android:src="@drawable/icon_notice"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="80px"
+            android:id="@+id/laadmissionenquery"
+            android:src="@drawable/icon_admissionquery"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80px"
+            android:id="@+id/ladiscussionforum"
+            android:src="@drawable/icon_discussionforum"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="80px"
+            android:id="@+id/lanewevents"
+            android:src="@drawable/icon_newsevents"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80px"
+            android:id="@+id/ladownload"
+            android:src="@drawable/icon_download"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="80px"
+            android:id="@+id/laaboutus"
+            android:src="@drawable/icon_about"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    </ScrollView>

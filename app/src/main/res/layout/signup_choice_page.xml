@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="14pt"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="@string/organizationName"
+        android:background="#932039"
+        android:textColor="#999"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        />
+
+<com.astuetz.PagerSlidingTabStrip
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:pstsShouldExpand="true"
+    android:background="#99a303"
+    android:id="@+id/signuppagerslidingtabstrip">
+</com.astuetz.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signupviewpager">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

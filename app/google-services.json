@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "836174641465",
+    "firebase_url": "https://biratclz.firebaseio.com",
+    "project_id": "biratclz",
+    "storage_bucket": "biratclz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836174641465:android:aeaf1df13b040d52",
+        "android_client_info": {
+          "package_name": "com.example.prason.biratclz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836174641465-v9u3f308j0ugj8c6cbk7pjdjsifmp11m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBAP9wgzB_hpGg5dL53Dbzila9XFLdOQY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

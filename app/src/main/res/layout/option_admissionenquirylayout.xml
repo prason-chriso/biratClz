@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width ="match_parent"
+    android:background="@color/light_orange"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/querysubject"
+            android:hint="Query Title"
+            />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:hint="Preview "
+            android:textAlignment="center"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/queryinput"
+            android:hint="Type here..."
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mailingAddress"
+            android:hint="Example@gmail.com"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitQuery"
+            android:text="Submit"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+</ScrollView>
